@@ -1,0 +1,16 @@
+.Title {
+    height: max-content;
+    padding: 15px 5%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Title h1{
+    color: var(--color-white);
+}
+
+box-icon {
+    cursor: pointer;
+}
