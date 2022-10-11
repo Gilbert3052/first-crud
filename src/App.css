@@ -25,7 +25,11 @@ body {
 
 
 .App {
-    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Users{
@@ -34,8 +38,6 @@ body {
     gap: 2rem 1rem;
     justify-content: space-around;
     margin: 0 5%;
-    margin-top: 100px;
-    min-height: 60vh;
 }
 
 .Users h2 {
